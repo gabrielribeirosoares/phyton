@@ -1,0 +1,7 @@
+n = float(input('Valor original: R$ '))
+d = (n*0.05)
+pn = (n*0.95)
+print('Queima de estoque: Aquecedor 3 potências')
+print('de R${}'.format(n, ))
+print('por R${:.2f} '.format(pn))
+input('São R$ {:.2f} de desconto'.format(d))
