@@ -1,4 +1,4 @@
-n = int(input('Digite um número: '))
-c = n*100
-m = n*1000
-print('Transformando {} para centímetros obtemos o valor de {} e milímetros {}'.format(n, c, m))
+n = float(input('Distância em metros: '))
+cm = n*100
+mm = n*1000
+print('Transformando {} para centímetros obtemos o valor de {}cm e milímetros {}mm'.format(n, cm, mm))

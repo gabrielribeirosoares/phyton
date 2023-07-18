@@ -1,3 +1,3 @@
-n = float(input('Digite um valor: R$ '))
+n = float(input('Quanto você tem na carteira? R$ '))
 m = n/3.27
-print('O valor em dolar será de: U${:.2f}'.format(m))
+print('Com o valor de R${:.2f}, você pode comprar U${:.2f}'.format(n, m))
