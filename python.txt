@@ -1,0 +1,7 @@
+MUNDO 2 PYTHON
+
+if - (usado somente uma vez)
+elif - (podem ser usados várias vezes)
+else - (usado somente uma vez)
+
+só pode ser usado "elif", se houver um "if"
