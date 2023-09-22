@@ -5,3 +5,29 @@ elif - (podem ser usados várias vezes)
 else - (usado somente uma vez)
 
 só pode ser usado "elif", se houver um "if"
+
+
+LAÇOS DE REPETIÇÃO
+
+laçocnointervalo(1, 10)
+	passo
+pega
+
+forcinrange(1, 10):
+	passo
+pega
+
+laçocnointervalo(0, 3) = forcinrange(0, 3):
+	if moeda:
+		pega
+	passo
+	pula
+passo
+pega
+
+
+
+
+
+
+
