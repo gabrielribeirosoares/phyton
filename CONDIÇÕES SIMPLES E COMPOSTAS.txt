@@ -1,0 +1,23 @@
+CONDIÇÕES SIMPLES E COMPOSTAS
+
+if carro.esquerda():
+bloco True
+else: 
+bloco False
+
+para colorir:
+
+\033[0;(style)33;(text)44(back-fundo)m
+
+style = 0(nada) 1(bold) 4(underline) 7(negative)
+
+text/back = 3(4)0 (branco) 
+3(4)1 (vermelho)
+3(4)2 (verde)
+3(4)3 (amarelo)
+3(4)4 (azul)
+3(4)5 (roxo)
+3(4)6 (ciano)
+3(4)7 (cinza)
+
+
