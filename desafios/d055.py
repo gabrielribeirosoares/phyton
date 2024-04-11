@@ -1,4 +1,14 @@
-import math
-
-w = 50*(120*((1/0.5**0.5)-(1/1**0.5)))/(135*((1/1**0.5)-(1/0.3**0.5)))
-print(w)
+maior = 0
+menor = 0
+for p in range(1,6):
+    peso = float(input('O peso da {}ª pessoa: '.format(p)))
+    if p == 1:
+        maior = peso
+        menor = peso
+    else:
+        if peso > maior:
+            maior = peso
+        if peso < menor:
+            menor = peso
+print('O maior peso lido foi de {} Kg'.format(maior))
+print('O menor peso lido foi de {} Kg'.format(menor))
